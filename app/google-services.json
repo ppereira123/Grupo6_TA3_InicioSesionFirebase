@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "733692107675",
+    "firebase_url": "https://practica-de-laboratorio-b4670.firebaseio.com",
+    "project_id": "practica-de-laboratorio-b4670",
+    "storage_bucket": "practica-de-laboratorio-b4670.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:733692107675:android:571d2917e34c6a21b35f3e",
+        "android_client_info": {
+          "package_name": "com.example.grupo6_ta3_iniciosesionfirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "733692107675-kjrmj63kmjph8f6s7chbnsg3j5avm6mu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.grupo6_ta3_iniciosesionfirebase",
+            "certificate_hash": "431b55d205967759dc2f4939ec20c158df21c411"
+          }
+        },
+        {
+          "client_id": "733692107675-ai8ljlikj2btq1a7jjl1dpqbulufhqbs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCck-qRcgUN134D4IZW1qJnNnXRsz5U8kQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "733692107675-ai8ljlikj2btq1a7jjl1dpqbulufhqbs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
