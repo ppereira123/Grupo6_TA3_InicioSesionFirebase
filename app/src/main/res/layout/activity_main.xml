@@ -18,9 +18,9 @@
     <TextView
         android:id="@+id/text"
         android:layout_width="match_parent"
-        android:layout_height="224dp"
+        android:layout_height="126dp"
         android:gravity="center"
-        android:text="TextView"
+        android:text="Inicio de Sesion de Google"
         android:textSize="24sp"
         tools:text="Inicio de sesion con google" />
 
