@@ -27,7 +27,21 @@ android:gravity="center"
 android:text="Nombre de usuario"
 android:textSize="30sp" />
 
-<TextView
+    <TextView
+        android:id="@+id/text_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Numero de telefono" />
+
+    <TextView
+        android:id="@+id/text_provider"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="ProviderID" />
+
+    <TextView
 android:id="@+id/txt_correo"
 android:layout_width="match_parent"
 android:layout_height="wrap_content"
