@@ -20,7 +20,7 @@ public class registros extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_registros);
-        db_reference = FirebaseDatabase.getInstance().getReference().child("Grupo").child("Grupo6");
+        db_reference = FirebaseDatabase.getInstance().getReference().child("Grupo").child("Grupo6").child("Registros");
         leerRegistros();
     }
 
@@ -40,18 +40,18 @@ public class registros extends AppCompatActivity {
     }
     public void mostrarRegistrosPorPantalla(DataSnapshot snapshot){
         LinearLayout contTemp = (LinearLayout) findViewById(R.id.ContenedorTemp);
-        LinearLayout contHum = (LinearLayout) findViewById(R.id.ContenedorHum);
+        LinearLayout contAxis = (LinearLayout) findViewById(R.id.ContenedorAxis);
 
-        String tempVal = String.valueOf(snapshot.child("payload_fields").child("temperatura").getValue());
-        String humVal = String.valueOf(snapshot.child("payload_fields").child("humedad").getValue());
+        String tempVal = String.valueOf(snapshot.child("temp").getValue());
+        String axisVal = String.valueOf(snapshot.child("axi").getValue());
 
         TextView temp = new TextView(getApplicationContext());
         temp.setText(tempVal+" °C");
         contTemp.addView(temp);
 
-        TextView hum = new TextView(getApplicationContext());
-        hum.setText(humVal+" %");
-        contHum.addView(hum);
+        TextView axis = new TextView(getApplicationContext());
+        axis.setText(axisVal);
+        contAxis.addView(axis);
     }
 
 }
