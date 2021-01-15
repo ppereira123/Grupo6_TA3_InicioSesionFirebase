@@ -17,26 +17,26 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal">
         <LinearLayout
-            android:id="@+id/TituloTemp1"
+            android:id="@+id/TituloTemp"
             android:layout_width="211dp"
             android:layout_height="match_parent"
             android:orientation="vertical">
             <TextView android:id="@+id/TituloTemp2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Temperatura" />
+                android:text="Temperaturas" />
         </LinearLayout>
 
         <LinearLayout
-            android:id="@+id/TituloHumedad1"
+            android:id="@+id/TituloAxis"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical">
             <TextView
-                android:id="@+id/TituloHumedad2"
+                android:id="@+id/TituloAxis2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Humedad" />
+                android:text="Axis" />
         </LinearLayout>
     </LinearLayout>
 
@@ -56,7 +56,7 @@
                 android:orientation="vertical" />
 
             <LinearLayout
-                android:id="@+id/ContenedorHum"
+                android:id="@+id/ContenedorAxis"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="vertical" />
